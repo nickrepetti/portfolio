@@ -1,19 +1,16 @@
 html {
-  font-size: 16px;
+  font-size: 20px;
 }
 body {
   color: #212529;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 300;
   line-height: 1.5;
   margin: 0;
 }
 .main-container {
-  padding-top: 4.75rem;
+  padding-top: 2rem;
   margin-bottom: 50px;
-}
-button:focus, button:active:focus {
-  outline: none;
 }
 
