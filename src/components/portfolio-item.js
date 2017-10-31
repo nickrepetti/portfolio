@@ -2,13 +2,13 @@ import React from 'react';
 
 import '../styles/portfolio-item.css';
 
-const PortfolioItem = ({ title, link, description, img, imgAlt, techList, githubUrl }) => {
+const PortfolioItem = ({ title, linkName, linkUrl, description, img, imgAlt, techList, githubUrl }) => {
   return (
     <div className="portfolio-item">
       <hr />
       <h1 className="portfolio-item__title">{title}</h1>
-      {link &&
-        <a href={link} className="portfolio-item__link" target="_blank">{link}</a>
+      {(linkName && linkUrl) &&
+        <a href={linkUrl} className="portfolio-item__link" target="_blank">{linkName}</a>
       }
       <p className="portfolio-item__description">{description}</p>
       <img className="portfolio-item__image" src={img} alt={imgAlt} />
