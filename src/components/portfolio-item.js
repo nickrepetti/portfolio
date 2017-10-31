@@ -8,7 +8,7 @@ const PortfolioItem = ({ title, link, description, img, imgAlt, techList, github
       <hr />
       <h1 className="portfolio-item__title">{title}</h1>
       {link &&
-        <a className="portfolio-item__link">{link}</a>
+        <a href={link} className="portfolio-item__link">{link}</a>
       }
       <p className="portfolio-item__description">{description}</p>
       <img className="portfolio-item__image" src={img} alt={imgAlt} />

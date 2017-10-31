@@ -22,7 +22,7 @@ const Portfolio = (props) => {
           <h3 className="portfolio-header">Check Out Some of My Projects</h3>
           <PortfolioItem
             title="hb-gm-conf"
-            link="hbgmconf.com"
+            link="http://hbgmconf.com"
             description="A web application to support the annual Habit Burger General Managers Conference."
             img={hbgmconfImg}
             imgAlt="A portfolio image"
