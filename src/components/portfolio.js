@@ -18,7 +18,7 @@ const Portfolio = (props) => {
         <Col md={6} mdOffset={3}>
           <Header />
           <hr />
-          <p className="portfolio-description">I'm Nick!  I like to travel and create things on the web. I like hockey, video games, clean code, and learning new things!</p>
+          <p className="portfolio-description">I'm Nick!  I like to travel and create things on the web. I like hockey, video games, clean code, and learning new things! Reach out to me at <a href="mailto:nick@nickrepetti.com">nick@nickrepetti.com</a> with questions, comments, or just to chat!</p>
           <h3 className="portfolio-header">Check Out Some of My Projects</h3>
           <PortfolioItem
             title="hb-gm-conf"

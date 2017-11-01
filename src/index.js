@@ -6,11 +6,13 @@ import registerServiceWorker from './registerServiceWorker';
 
 import NavigationBar from './components/navigation-bar';
 import Portfolio from './components/portfolio';
+import Footer from './components/footer';
 
 ReactDOM.render(
     <div>
       <NavigationBar />
       <Portfolio />
+      <Footer />
     </div>
 , document.getElementById('root'));
 
